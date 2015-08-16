@@ -1,0 +1,29 @@
+{
+  "name": "hubot-magic-8-ball",
+  "version": "1.0.0",
+  "description": "Simulate the Magic 8 Ball interaction.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/raelga/hubot-magic-8-ball.git"
+  },
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "magic-8-ball",
+    "bola-8",
+    "toy",
+    "spanish"
+  ],
+  "author": "Rael Garcia <raelga@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raelga/hubot-magic-8-ball/issues"
+  },
+  "homepage": "https://github.com/raelga/hubot-magic-8-ball#readme",
+  "dependencies": {
+  }
+}
