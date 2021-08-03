@@ -9,7 +9,7 @@
 #
 # Commands:
 #   hubot magic-8 <query> - Obtain a response from the Magic 8 Ball in english.
-#   hubot bola-8 <frase> - Obtiene una respuesta de la bola 8 en castellano.
+#   hubot bola-8 <frase> - Obtém uma resposta da bola 8 mágica em inglês
 #
 # Notes:
 #   None
@@ -41,6 +41,30 @@ magic8Esp = [
   'Muy dudoso'
 ]
 
+magic8Br = [
+  'É certo',
+  'Com certeza que sim',
+  'Sem nenhuma dúvida',
+  'Sim, definitivamente',
+  'Pode contar com isso',
+  'Pelo que eu to vendo, sim',
+  'Certamente',
+  'Tá parecendo que sim',
+  'Sim',
+  'Tudo aponta que sim',
+  'Tá meio confuso, pergunta de novo',
+  'Pergunta de novo mais tarde',
+  'Melhor não te dizer agora',
+  'Não consigo prever agora',
+  'Concentre-se e pergunte de novo',
+  'Não conte com isso',
+  'Minha resposta é não',
+  'Minhas fontes dizem não',
+  'Tá parecendo que não',
+  'Duvido Muito',
+  'Não'
+]
+
 magic8Eng = [
   'It is certain',
   'It is decidedly so',
@@ -70,4 +94,4 @@ module.exports = (robot) ->
     msg.send msg.random magic8Eng
 
   robot.respond /bola-8 (.+)/i, (msg) ->
-    msg.send msg.random magic8Esp
+    msg.send msg.random magic8Br
